@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1B5E3A;
+  --color-primary-dark: #123D26;
+  --color-secondary: #C97B24;
+  --color-accent: #A8432E;
+  --color-success: #3C7A34;
+  --color-warning: #C97B24;
+  --color-danger: #A8432E;
+  --color-bg: #FAF6EE;
+  --color-surface: #FFFFFF;
+  --color-border: #D8CFBC;
+  --color-text: #2A2420;
+  --color-text-muted: #6B6155;
+}
+
+body {
+  @apply bg-bg text-textc;
+}
+
+@layer components {
+  .kc-card {
+    @apply bg-surface border border-borderc rounded-card shadow-subtle;
+  }
+  .kc-btn {
+    @apply inline-flex items-center gap-1.5 rounded-btn border border-primary bg-primary px-3 py-1.5
+      text-sm font-medium text-white hover:bg-primary-dark transition-colors disabled:opacity-50;
+  }
+  .kc-btn-outline {
+    @apply inline-flex items-center gap-1.5 rounded-btn border border-borderc bg-surface px-3 py-1.5
+      text-sm font-medium text-textc hover:border-primary hover:text-primary transition-colors
+      disabled:opacity-50;
+  }
+  .kc-btn-danger {
+    @apply inline-flex items-center gap-1.5 rounded-btn border border-danger bg-danger px-3 py-1.5
+      text-sm font-medium text-white hover:opacity-90 transition-colors disabled:opacity-50;
+  }
+  .kc-input {
+    @apply w-full rounded-card border border-borderc bg-surface px-2.5 py-1.5 text-sm
+      focus:border-primary focus:outline-none;
+  }
+  .kc-label {
+    @apply block text-xs font-semibold uppercase tracking-wide text-muted;
+  }
+  .kc-label-bi {
+    @apply block text-[11px] font-normal normal-case text-muted;
+  }
+  .kc-chip {
+    @apply inline-flex items-center rounded-btn border px-1.5 py-0.5 text-[11px] font-semibold;
+  }
+  .kc-th {
+    @apply px-2.5 py-1.5 text-left text-[11px] font-semibold uppercase tracking-wide text-muted
+      border-b border-borderc bg-[#F5F0E4];
+  }
+  .kc-td {
+    @apply px-2.5 py-1.5 text-sm border-b border-borderc/70;
+  }
+}
+
+/* Government-portal tricolor strip — hard stops, not a decorative gradient */
+.tricolor {
+  background: linear-gradient(
+    90deg,
+    #FF9933 0%, #FF9933 33.33%,
+    #FFFFFF 33.33%, #FFFFFF 66.66%,
+    #138808 66.66%, #138808 100%
+  );
+}

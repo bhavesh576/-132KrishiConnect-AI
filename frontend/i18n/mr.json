@@ -1,0 +1,137 @@
+{
+  "footer": "प्रोटोटाइप आवृत्ती — भाव व खरेदीदार प्रोफाइल ही निदर्शनासाठी सिंथेटिक नमुना डेटा आहे. गणनेचे तर्क वास्तविक व पारदर्शक आहेत.",
+  "tagline": "महाराष्ट्र शासन पायलट | MSInS",
+  "psLine": "शेतकऱ्यांसाठी बाजार जोडणी व भाव शोध मजबूत करणे — SIH 2026, PS #26132",
+  "nav": {
+    "dashboard": "डॅशबोर्ड", "buyers": "खरेदीदार", "transactions": "व्यवहार",
+    "prices": "भाव", "grievance": "तक्रार", "offers": "ऑफर",
+    "requirements": "माझ्या मागण्या", "postRequirement": "नवी मागणी नोंदवा",
+    "poolSimulator": "पूल कॅल्क्युलेटर", "requirementsAvail": "खुल्या खरेदीदार मागण्या",
+    "impact": "मॉडेल केलेला परिणाम", "grievances": "तक्रारी"
+  },
+  "role": { "FARMER": "शेतकरी", "BUYER": "खरेदीदार", "FPO": "FPO", "ADMIN": "प्रशासक" },
+  "login": {
+    "chooseRole": "पुढे जाण्यासाठी आपली भूमिका निवडा",
+    "farmer": "शेतकरी लॉगिन", "buyer": "खरेदीदार लॉगिन", "fpo": "FPO लॉगिन", "admin": "प्रशासक लॉगिन",
+    "phone": "मोबाईल क्रमांक", "sendOtp": "OTP पाठवा", "otp": "OTP टाका",
+    "verify": "पडताळा व लॉगिन", "demoHint": "डेमो OTP: 1234", "changeRole": "भूमिका बदला",
+    "note": "फोन + OTP डेमो लॉगिन. खरी SMS पाठवली जात नाहीत.",
+    "quickTitle": "फक्त पाहायचंय? वन-क्लिक डेमो लॉगिन",
+    "quickHint": "OTP टप्पा वगळा — खर्‍या verify एंडपॉइंटद्वारे सीडेड डेमो खात्यात थेट लॉगिन (डेमो OTP 1234)."
+  },
+  "common": {
+    "logout": "बाहेर पडा", "analyze": "विश्लेषण", "addNewLot": "+ नवीन पीक लॉट जोडा",
+    "submit": "सबमिट करा", "sendOffer": "ऑफर पाठवा", "sendOfferAll": "सर्व जुळलेल्या लॉटना ऑफर पाठवा",
+    "accept": "स्वीकारा", "reject": "नाकारा", "createListing": "डिजिटल ऑफर यादी तयार करा",
+    "shareWhatsapp": "WhatsApp वर शेअर करा", "viewRankedBuyers": "क्रमवार खरेदीदार पहा",
+    "showFormula": "संपूर्ण सूत्र पहा", "hideFormula": "सूत्र लपवा",
+    "recalculate": "पुन्हा गणना करा", "advance": "पुढे न्या (डेमो)", "loading": "लोड होत आहे…",
+    "listed": "खरेदीदारांसाठी यादीत ✔", "filter": "फिल्टर", "all": "सर्व"
+  },
+  "labels": {
+    "crop": "पीक", "quantityTonnes": "प्रमाण (टन)", "quantityQtl": "प्रमाण (क्विंटल)",
+    "grade": "दर्जा", "harvestDate": "काढणीची तारीख", "storageAvailable": "साठवण उपलब्ध",
+    "on": "चालू", "off": "बंद", "cashNeed": "रोखीची गरज?", "cashAmount": "रक्कम (₹)",
+    "cashNeededBy": "आवश्यक तारीख", "currentMandi": "सध्याची बाजार समिती",
+    "mandi": "बाजार समिती", "village": "गाव", "district": "जिल्हा", "status": "स्थिती",
+    "phone": "मोबाईल क्रमांक", "buyerType": "खरेदीदार प्रकार", "paymentReliability": "देयक विश्वसार्हता",
+    "avgPaymentDays": "सरासरी देयक दिवस", "distance": "अंतर", "verified": "सत्यापित",
+    "unverified": "असत्यापित", "matchScore": "जुळणी", "lot": "लॉट", "buyer": "खरेदीदार",
+    "qty": "प्रमाण", "price": "भाव", "truckId": "ट्रक क्र.", "logisticsStatus": "वाहतूक",
+    "paymentStatus": "देयक", "category": "श्रेणी", "description": "तपशील",
+    "linkedTxn": "संलग्न व्यवहार (ऐच्छिक)", "deadlineDate": "अंतिम तारीख",
+    "destinationDistrict": "गंतव्य जिल्हा", "minGrade": "किमान दर्जा",
+    "tonnesUnit": "टन", "qtlUnit": "क्विंटल", "day": "दिवस", "days": "दिवस",
+    "perQtl": "प्रति क्विंटल", "totalInHand": "एकूण हातात येणारे", "comparison": "हा पर्याय का उत्तम — अव्वल ५ पर्याय",
+    "allocation": "वाटप", "sellNow": "आता विका", "hold": "थांबवा",
+    "poolFpo": "FPO कडे पूल", "farmer": "शेतकरी", "fpoPool": "FPO पूल",
+    "matchedOf": "जुळले", "shortfall": "कमतरता", "noSupply": "— अधिक पुरवठा उपलब्ध नाही",
+    "myLots": "माझी लॉट", "activeLots": "सक्रिय लॉट", "tonnesListed": "नोंदलेले टन",
+    "openOffers": "खुल्या ऑफर", "pendingGrievances": "प्रलंबित तक्रारी",
+    "openRequirements": "खुल्या मागण्या", "activeOffers": "पाठवलेल्या सक्रिय ऑफर",
+    "completedTxns": "पूर्ण व्यवहार",
+    "regFarmers": "नोंदलेले शेतकरी", "regBuyers": "नोंदलेले खरेदीदार",
+    "activeFpos": "सक्रिय FPO", "totalLots": "एकूण लॉट",
+    "priceTrend": "९०-दिवसांचा भाव कल", "priceMap": "बाजार समिती भाव नकाशा",
+    "legendLow": "कमी भाव", "legendHigh": "जास्त भाव",
+    "impactModel": "मॉडेल केलेला परिणाम", "illustrative": "उदाहरणार्थ / सूत्राधारित, मोजलेले नाही",
+    "adoption": "कल्पनिक वापरकर्ते (शेतकरी)", "projectedBenefit": "अंदाजित एकूण फायदा (दर वर्षी)",
+    "premiumPct": "पूलिंग प्रीमियम", "pooledNet": "पूल्ड निव्वळ भाव", "pooledTonnes": "पूल करायचे टन",
+    "members": "सदस्य", "activeLotsCol": "सक्रिय लॉट", "totalTonnes": "एकूण टन",
+    "yourOffers": "तुमच्या लॉटवर ऑफर", "requirementSummary": "मागणीचा सारांश",
+    "gross": "स्थूल भाव", "transport": "वाहतूक खर्च", "storage": "साठवण खर्च",
+    "spoilage": "नासाडी तोटा", "net": "निव्वळ भाव", "recommendation": "शिफारस",
+    "lotSummary": "लॉट सारांश", "storageToggle": "साठवण", "incomingOffers": "मिळालेल्या ऑफर",
+    "memberCount": "सदस्य", "contact": "संपर्क", "avgNet": "सरासरी निव्वळ वाढ (मंडी बदल)",
+    "avgLotValue": "सरासरी लॉट मूल्य", "offeredQty": "प्रस्तावित प्रमाण", "noData": "अजून डेटा नाही",
+    "sellNowSplit": "विका", "poolDesc": "FPO पूलिंग चालू असताना उर्वरित टन्नेजपैकी ४०% पूल्ड लॉटमध्ये जाते (कॉन्फिग स्थिरांक).",
+    "cropInterest": "आवडीचे पीक", "typicalNeed": "सामान्य गरज",
+    "rankedBuyers": "क्रमवार खरेदीदार", "grievances": "तक्रारी"
+  },
+  "rec": {
+    "SELL_NOW": "आता विका", "HOLD": "थांबवून ठेवा", "SWITCH_MANDI": "बाजार समिती बदला",
+    "PARTIAL_SALE": "अंशतः विक्री"
+  },
+  "status": {
+    "DRAFT": "मसुदा", "LISTED": "यादीत", "POOLED": "पूल्ड", "SOLD": "विकले",
+    "ASSIGNED": "नियुक्त", "IN_TRANSIT": "वाहतुकीत", "DELIVERED": "वितरित",
+    "PENDING": "प्रलंबित", "PARTIAL": "अंशतः", "PAID": "देयक झाले",
+    "ACCEPTED": "स्वीकृत", "REJECTED": "नाकारले",
+    "OPEN": "खुले", "IN_REVIEW": "तपासणीत", "RESOLVED": "निकाली"
+  },
+  "stage": {
+    "OFFER_ACCEPTED": "ऑफर स्वीकृत", "TRUCK_ASSIGNED": "ट्रक नियुक्त",
+    "IN_TRANSIT": "वाहतुकीत", "DELIVERED": "वितरित", "PAYMENT_RELEASED": "देयक सोडले"
+  },
+  "cat": {
+    "Payment delay": "देयक उशीर", "Quality dispute": "गुणवत्ता वाद",
+    "Weighing dispute": "वजन वाद", "Other": "इतर"
+  },
+  "crops": {
+    "Onion": "कांदा", "Tomato": "टोमॅटो", "Potato": "बटाटा", "Soybean": "सोयाबीन",
+    "Cotton": "कापूस", "Wheat": "गहू", "Grapes": "द्राक्षे",
+    "Pomegranate": "डाळिंब", "Banana": "केळी", "Sugarcane": "ऊस",
+    "Gram (Chana)": "हरभरा", "Maize": "मका"
+  },
+  "cropsBi": {
+    "Onion": "कांदा", "Tomato": "टोमॅटो", "Potato": "बटाटा", "Soybean": "सोयाबीन",
+    "Cotton": "कापूस", "Wheat": "गहू", "Grapes": "द्राक्षे", "Pomegranate": "डाळिंब",
+    "Banana": "केळी", "Sugarcane": "ऊस", "Gram (Chana)": "हरभरा", "Maize": "मका"
+  },
+  "grades": { "A": "A — उत्तम", "B": "B — प्रमाणित", "C": "C — सामान्य" },
+  "formBi": {
+    "crop": "पीक", "quantity": "प्रमाण (टन)", "grade": "दर्जा", "harvestDate": "काढणीची तारीख",
+    "storage": "साठवण उपलब्ध", "cashNeed": "रोखीची गरज?", "cashAmount": "रक्कम (₹)",
+    "cashBy": "आवश्यक तारीख", "mandi": "सध्याची बाजार समिती", "netRealisation": "निव्वळ प्राप्ती",
+    "gross": "स्थूल भाव", "transport": "वाहतूक खर्च", "storageCost": "साठवण खर्च",
+    "spoilage": "नासाडी तोटा", "net": "निव्वळ भाव", "totalInHand": "एकूण हातात येणारे",
+    "sellNow": "आता विका", "hold": "थांबवा", "switch": "मंडी बदला", "partial": "अंशतः विक्री"
+  },
+  "analysis": {
+    "formulaLines": "ओळीनुसार गणना",
+    "offerListingHint": "हे लॉट मार्केटप्लेसमध्ये खरेदीदारांना दिसते."
+  },
+  "ui": {
+    "poolSubtitle": "पूल्ड निव्वळ भावावर पायरीनुसार प्रीमियम — संपूर्ण सूत्र दिसते.",
+    "poolConstants": "कॉन्फिग स्थिरांक: आधार २% + प्रति ५ टन १%, कमाल १५% — ओळीनुसार दाखवले, कधीही लपवले नाही.",
+    "poolWeightedAvg": "सदस्य लॉटच्या आज-सर्वोत्तम निव्वळ भावाची भारित सरासरी:",
+    "mappedNote": "प्रोटोटाइप DB मध्ये नोंदलेले",
+    "fpoReqsSubtitle": "खुल्या खरेदीदार मागण्या ज्यांना हे FPO पूल्ड पुरवठ्याने प्रतिसाद देऊ शकते.",
+    "coverageTitle": "जिल्हानिहाय कव्हरेज घनता",
+    "simResolution": "अनुकरित निकाल — केवल स्थिती फील्ड अपडेट (लाइव्ह वर्कफ्लो इंजिन नाही).",
+    "impactSubtitle": "सीडेड लॉट डेटावर सूत्राधारित अंदाज — स्पष्टपणे मोजलेला वापर नाही.",
+    "pricesSubtitle": "अ‍ॅग्रमार्कनेट-शैलीचा सिंथेटिक ३-वर्षे पॅनल — लाइव्ह फीड नाही.",
+    "tilesNote": "(नकाशा टाइल्स: OpenStreetMap — इंटरनेट आवश्यक)",
+    "stepperNote": "प्रोटोटाइप स्थिती स्टेपर — लाइव्ह लॉजिस्टिक्स/UPI इंटिग्रेशन नाही.",
+    "submitted": "✔ सबमिट झाले",
+    "today": "आज",
+    "fpoPooling": "FPO पूलिंग",
+    "tracePrefix": "इंजिन मागोवा:",
+    "needLotContext": "हे पान विश्लेषण पानावरील “क्रमवार खरेदीदार पहा” मधून उघडा (भारित जुळणीसाठी लॉट संदर्भ लागतो).",
+    "matchedRows": "जुळलेल्या लॉट पंक्ती",
+    "offerPricePrompt": "ऑफर किंमत (₹/क्विंटल):",
+    "offerPricePromptAll": "सर्व जुळलेल्या लॉटसाठी ऑफर किंमत (₹/क्विंटल):",
+    "notRegistered": "डेमो नोंदणीत नोंदलेले नाही — बिल्ड रिपोर्टमधील डेमो खाती पहा.",
+    "chosenDate": "निवडलेली तारीख"
+  }
+}

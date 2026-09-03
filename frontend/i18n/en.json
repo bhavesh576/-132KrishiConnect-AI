@@ -1,0 +1,137 @@
+{
+  "footer": "Prototype build — prices and buyer profiles are synthetic sample data for demonstration purposes. Calculation logic is real and transparent.",
+  "tagline": "Govt. of Maharashtra Pilot | MSInS",
+  "psLine": "Strengthening market linkages and price discovery for farmers — SIH 2026, PS #26132",
+  "nav": {
+    "dashboard": "Dashboard", "buyers": "Buyers", "transactions": "Transactions",
+    "prices": "Prices", "grievance": "Grievance", "offers": "Offers",
+    "requirements": "My Requirements", "postRequirement": "Post New Requirement",
+    "poolSimulator": "Pool Simulator", "requirementsAvail": "Open Buyer Requirements",
+    "impact": "Modelled Impact", "grievances": "Grievances"
+  },
+  "role": { "FARMER": "Farmer", "BUYER": "Buyer", "FPO": "FPO", "ADMIN": "Admin" },
+  "login": {
+    "chooseRole": "Choose your role to continue",
+    "farmer": "Farmer Login", "buyer": "Buyer Login", "fpo": "FPO Login", "admin": "Admin Login",
+    "phone": "Mobile number", "sendOtp": "Send OTP", "otp": "Enter OTP",
+    "verify": "Verify & Login", "demoHint": "Demo OTP: 1234", "changeRole": "Change role",
+    "note": "Phone + OTP demo login. No real SMS is sent.",
+    "quickTitle": "Just checking? One-click demo login",
+    "quickHint": "Bypasses the OTP step — logs in with a seeded demo account via the real verify endpoint (demo OTP 1234)."
+  },
+  "common": {
+    "logout": "Logout", "analyze": "Analyze", "addNewLot": "+ Add New Harvest Lot",
+    "submit": "Submit", "sendOffer": "Send Offer", "sendOfferAll": "Send Offer to All Matched Lots",
+    "accept": "Accept", "reject": "Reject", "createListing": "Create Digital Offer Listing",
+    "shareWhatsapp": "Share via WhatsApp", "viewRankedBuyers": "View Ranked Buyers",
+    "showFormula": "Show full formula", "hideFormula": "Hide formula",
+    "recalculate": "Recalculate", "advance": "Advance (demo)", "loading": "Loading…",
+    "listed": "Listed for buyers ✔", "filter": "Filter", "all": "All"
+  },
+  "labels": {
+    "crop": "Crop", "quantityTonnes": "Quantity (tonnes)", "quantityQtl": "Quantity (qtl)",
+    "grade": "Grade", "harvestDate": "Harvest date", "storageAvailable": "Storage available",
+    "on": "ON", "off": "OFF", "cashNeed": "Cash need?", "cashAmount": "Cash amount (₹)",
+    "cashNeededBy": "Cash needed by", "currentMandi": "Current location mandi",
+    "mandi": "Mandi", "village": "Village", "district": "District", "status": "Status",
+    "phone": "Mobile number", "buyerType": "Buyer type", "paymentReliability": "Payment Reliability",
+    "avgPaymentDays": "Avg. payment days", "distance": "Distance", "verified": "Verified",
+    "unverified": "Not verified", "matchScore": "Match", "lot": "Lot", "buyer": "Buyer",
+    "qty": "Qty", "price": "Price", "truckId": "Truck ID", "logisticsStatus": "Logistics",
+    "paymentStatus": "Payment", "category": "Category", "description": "Description",
+    "linkedTxn": "Linked transaction (optional)", "deadlineDate": "Deadline date",
+    "destinationDistrict": "Destination district", "minGrade": "Min. grade",
+    "tonnesUnit": "tonnes", "qtlUnit": "quintal", "day": "day", "days": "days",
+    "perQtl": "per quintal", "totalInHand": "Total in-hand", "comparison": "Why this option won — top 5 alternatives",
+    "allocation": "Allocation split", "sellNow": "Sell now", "hold": "Hold",
+    "poolFpo": "Pool to FPO", "farmer": "Farmer", "fpoPool": "FPO Pool",
+    "matchedOf": "Matched", "shortfall": "Shortfall", "noSupply": "— no further supply currently available",
+    "myLots": "My Lots", "activeLots": "Active lots", "tonnesListed": "Tonnes listed",
+    "openOffers": "Open offers", "pendingGrievances": "Pending grievances",
+    "openRequirements": "Open requirements", "activeOffers": "Active offers sent",
+    "completedTxns": "Completed transactions",
+    "regFarmers": "Registered farmers", "regBuyers": "Registered buyers",
+    "activeFpos": "Active FPOs", "totalLots": "Total lots created",
+    "priceTrend": "90-day price trend", "priceMap": "Mandi price map",
+    "legendLow": "Lower price", "legendHigh": "Higher price",
+    "impactModel": "Modelled Impact", "illustrative": "Illustrative / formula-based, not measured",
+    "adoption": "Hypothetical adoption (farmers)", "projectedBenefit": "Projected aggregate benefit (per year)",
+    "premiumPct": "Pooling premium", "pooledNet": "Pooled net price", "pooledTonnes": "Tonnes to pool",
+    "members": "Member", "activeLotsCol": "Active lots", "totalTonnes": "Total tonnes",
+    "yourOffers": "Offers on your lots", "requirementSummary": "Requirement summary",
+    "gross": "Gross price", "transport": "Transport cost", "storage": "Storage cost",
+    "spoilage": "Spoilage loss", "net": "NET price", "recommendation": "Recommendation",
+    "lotSummary": "Lot summary", "storageToggle": "Storage", "incomingOffers": "Incoming offers",
+    "memberCount": "Members", "contact": "Contact", "avgNet": "Avg. net uplift (mandi switch)",
+    "avgLotValue": "Avg. lot value", "offeredQty": "Offered qty", "noData": "No data yet",
+    "sellNowSplit": "Sell", "poolDesc": "If this lot is pooled via your FPO, 40% of the remaining tonnage goes to the pooled lot (config constant).",
+    "cropInterest": "Interested crop", "typicalNeed": "Typical need",
+    "rankedBuyers": "Ranked Buyers", "grievances": "Grievances"
+  },
+  "rec": {
+    "SELL_NOW": "SELL NOW", "HOLD": "HOLD", "SWITCH_MANDI": "SWITCH MANDI",
+    "PARTIAL_SALE": "PARTIAL SALE"
+  },
+  "status": {
+    "DRAFT": "Draft", "LISTED": "Listed", "POOLED": "Pooled", "SOLD": "Sold",
+    "ASSIGNED": "Assigned", "IN_TRANSIT": "In Transit", "DELIVERED": "Delivered",
+    "PENDING": "Pending", "PARTIAL": "Partial", "PAID": "Paid",
+    "ACCEPTED": "Accepted", "REJECTED": "Rejected",
+    "OPEN": "Open", "IN_REVIEW": "In Review", "RESOLVED": "Resolved"
+  },
+  "stage": {
+    "OFFER_ACCEPTED": "Offer Accepted", "TRUCK_ASSIGNED": "Truck Assigned",
+    "IN_TRANSIT": "In Transit", "DELIVERED": "Delivered", "PAYMENT_RELEASED": "Payment Released"
+  },
+  "cat": {
+    "Payment delay": "Payment delay", "Quality dispute": "Quality dispute",
+    "Weighing dispute": "Weighing dispute", "Other": "Other"
+  },
+  "crops": {
+    "Onion": "Onion", "Tomato": "Tomato", "Potato": "Potato", "Soybean": "Soybean",
+    "Cotton": "Cotton", "Wheat": "Wheat", "Grapes": "Grapes",
+    "Pomegranate": "Pomegranate", "Banana": "Banana", "Sugarcane": "Sugarcane",
+    "Gram (Chana)": "Gram (Chana)", "Maize": "Maize"
+  },
+  "cropsBi": {
+    "Onion": "कांदा", "Tomato": "टोमॅटो", "Potato": "बटाटा", "Soybean": "सोयाबीन",
+    "Cotton": "कापूस", "Wheat": "गहू", "Grapes": "द्राक्षे", "Pomegranate": "डाळिंब",
+    "Banana": "केळी", "Sugarcane": "ऊस", "Gram (Chana)": "हरभरा", "Maize": "मका"
+  },
+  "grades": { "A": "A — Best", "B": "B — Standard", "C": "C — Basic" },
+  "formBi": {
+    "crop": "पीक", "quantity": "प्रमाण (टन)", "grade": "दर्जा", "harvestDate": "काढणीची तारीख",
+    "storage": "साठवण उपलब्ध", "cashNeed": "रोखीची गरज?", "cashAmount": "रक्कम (₹)",
+    "cashBy": "आवश्यक तारीख", "mandi": "सध्याची बाजार समिती", "netRealisation": "निव्वळ प्राप्ती",
+    "gross": "स्थूल भाव", "transport": "वाहतूक खर्च", "storageCost": "साठवण खर्च",
+    "spoilage": "नासाडी तोटा", "net": "निव्वळ भाव", "totalInHand": "एकूण हातात येणारे",
+    "sellNow": "आता विका", "hold": "थांबवा", "switch": "मंडी बदला", "partial": "अंशतः विक्री"
+  },
+  "analysis": {
+    "formulaLines": "Line-by-line calculation",
+    "offerListingHint": "Makes this lot visible to buyers on the marketplace."
+  },
+  "ui": {
+    "poolSubtitle": "Stepped premium on pooled net price — full formula visible.",
+    "poolConstants": "Configurable constants: base 2% + 1% per 5 t pooled, capped at 15% — shown line-by-line, never hidden.",
+    "poolWeightedAvg": "Weighted avg of member-lot best-today nets:",
+    "mappedNote": "mapped in prototype DB",
+    "fpoReqsSubtitle": "Open buyer requirements this FPO could respond to with pooled supply.",
+    "coverageTitle": "District-wise coverage density",
+    "simResolution": "Simulated resolution — status field update only (no live workflow engine).",
+    "impactSubtitle": "Formula-based projection over seeded lot data — explicitly NOT measured adoption.",
+    "pricesSubtitle": "Agmarknet-style synthetic 3-year panel — not a live feed.",
+    "tilesNote": "(Map tiles: OpenStreetMap — needs internet)",
+    "stepperNote": "Prototype status stepper — not a live logistics/UPI integration.",
+    "submitted": "✔ Submitted",
+    "today": "Today",
+    "fpoPooling": "FPO Pooling",
+    "tracePrefix": "engine trace:",
+    "needLotContext": "Open this page via “View Ranked Buyers” on an analysis page (weighted match needs a lot context).",
+    "matchedRows": "matched lot rows",
+    "offerPricePrompt": "Offer price (₹/qtl):",
+    "offerPricePromptAll": "Offer price for ALL matched lots (₹/qtl):",
+    "notRegistered": "Not registered in demo registry — see demo accounts in build report.",
+    "chosenDate": "Selected date"
+  }
+}

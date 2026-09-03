@@ -1,0 +1,36 @@
+# Render Blueprint — KrishiConnect (SIH 2026 PS #26132 prototype)
+# Deploys TWO free web services from this one repo:
+#   krishiconnect-api  (FastAPI + SQLite, seeds itself at every boot)
+#   krishiconnect-web  (Next.js, talks to the API via NEXT_PUBLIC_API_URL)
+#
+# Deploy: Render Dashboard → New + → Blueprint → pick this repo → Render reads
+# this file. When prompted for NEXT_PUBLIC_API_URL enter your API service URL,
+# e.g. https://krishiconnect-api.onrender.com  (see DEPLOY_RENDER.md).
+
+services:
+  - type: web
+    name: krishiconnect-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    # Seeds the DB at boot so the golden demo window (HOLD 5 days @ Aurangabad,
+    # ₹4,694/qtl) is always anchored to "today" — even after free-tier cold
+    # starts. Remove "python -m seed.run_all_seed && " to rely on the committed
+    # krishiconnect.db instead (data then survives cold starts only while the
+    # instance lives — Render free disks are ephemeral).
+    startCommand: python -m seed.run_all_seed && uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+
+  - type: web
+    name: krishiconnect-web
+    runtime: node
+    rootDir: frontend
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      # Build-time variable — must point at the API service URL.
+      # `sync: false` makes Render ask you for the value during Blueprint setup.
+      - key: NEXT_PUBLIC_API_URL
+        sync: false

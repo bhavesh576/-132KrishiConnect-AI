@@ -1,0 +1,29 @@
+{
+ "farmer": {
+  "phone": "9876543210",
+  "name": "Ramesh Patil",
+  "district": "Nashik"
+ },
+ "buyers": [
+  {
+   "phone": "9822011111",
+   "name": "Shree Ganesh Trading Co.",
+   "type": "Wholesaler"
+  },
+  {
+   "phone": "9822022222",
+   "name": "Mahagrapes Exports LLP",
+   "type": "Exporter"
+  }
+ ],
+ "fpo": {
+  "phone": "9822033333",
+  "name": "Nashik Drushkava Kanda Utpadak FPO Ltd"
+ },
+ "admin": {
+  "phone": "9999999999",
+  "name": "KrishiConnect Admin (MSInS)"
+ },
+ "otp": "1234 (DEMO ONLY, hardcoded in auth.py)",
+ "golden_lot_id": 1
+}

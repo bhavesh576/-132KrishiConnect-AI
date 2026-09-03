@@ -1,0 +1,37 @@
+crop,grade,pct_adjustment
+Onion,A,8.0
+Onion,B,0.0
+Onion,C,-12.0
+Tomato,A,8.0
+Tomato,B,0.0
+Tomato,C,-12.0
+Potato,A,8.0
+Potato,B,0.0
+Potato,C,-12.0
+Soybean,A,8.0
+Soybean,B,0.0
+Soybean,C,-12.0
+Cotton,A,8.0
+Cotton,B,0.0
+Cotton,C,-12.0
+Wheat,A,8.0
+Wheat,B,0.0
+Wheat,C,-12.0
+Grapes,A,8.0
+Grapes,B,0.0
+Grapes,C,-12.0
+Pomegranate,A,8.0
+Pomegranate,B,0.0
+Pomegranate,C,-12.0
+Banana,A,8.0
+Banana,B,0.0
+Banana,C,-12.0
+Sugarcane,A,8.0
+Sugarcane,B,0.0
+Sugarcane,C,-12.0
+Gram (Chana),A,8.0
+Gram (Chana),B,0.0
+Gram (Chana),C,-12.0
+Maize,A,8.0
+Maize,B,0.0
+Maize,C,-12.0

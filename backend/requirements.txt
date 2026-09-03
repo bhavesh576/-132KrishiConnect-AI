@@ -1,0 +1,9 @@
+# Backend dependencies (Python 3.11+ tested on 3.13)
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-jose[cryptography]
+pandas
+numpy
+faker

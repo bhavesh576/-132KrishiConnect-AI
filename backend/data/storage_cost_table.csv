@@ -1,0 +1,13 @@
+crop,cost_per_qtl_per_day,max_safe_storage_days
+Onion,4.0,60
+Tomato,7.0,7
+Potato,3.0,90
+Soybean,2.5,120
+Cotton,2.0,150
+Wheat,2.0,180
+Grapes,6.0,21
+Pomegranate,6.0,30
+Banana,6.5,10
+Sugarcane,2.5,15
+Gram (Chana),2.0,180
+Maize,2.5,120

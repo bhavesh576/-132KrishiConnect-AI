@@ -1,0 +1,177 @@
+[
+ {
+  "mandi_id": 1,
+  "mandi_name": "Lasalgaon",
+  "district": "Nashik",
+  "lat": 20.1467,
+  "lon": 74.3233
+ },
+ {
+  "mandi_id": 2,
+  "mandi_name": "Pimpalgaon Baswant",
+  "district": "Nashik",
+  "lat": 20.05,
+  "lon": 73.8667
+ },
+ {
+  "mandi_id": 3,
+  "mandi_name": "Nashik",
+  "district": "Nashik",
+  "lat": 19.9975,
+  "lon": 73.7898
+ },
+ {
+  "mandi_id": 4,
+  "mandi_name": "Manmad",
+  "district": "Nashik",
+  "lat": 20.2525,
+  "lon": 74.4489
+ },
+ {
+  "mandi_id": 5,
+  "mandi_name": "Yeola",
+  "district": "Nashik",
+  "lat": 20.2833,
+  "lon": 74.4833
+ },
+ {
+  "mandi_id": 6,
+  "mandi_name": "Kalvan",
+  "district": "Nashik",
+  "lat": 20.44,
+  "lon": 74.15
+ },
+ {
+  "mandi_id": 7,
+  "mandi_name": "Umrane",
+  "district": "Nashik",
+  "lat": 20.55,
+  "lon": 74.05
+ },
+ {
+  "mandi_id": 8,
+  "mandi_name": "Vaijapur",
+  "district": "Aurangabad",
+  "lat": 19.92,
+  "lon": 74.77
+ },
+ {
+  "mandi_id": 9,
+  "mandi_name": "Chandwad",
+  "district": "Nashik",
+  "lat": 20.33,
+  "lon": 74.25
+ },
+ {
+  "mandi_id": 10,
+  "mandi_name": "Aurangabad",
+  "district": "Aurangabad",
+  "lat": 19.8776,
+  "lon": 75.336
+ },
+ {
+  "mandi_id": 11,
+  "mandi_name": "Pune (Market Yard)",
+  "district": "Pune",
+  "lat": 18.4857,
+  "lon": 73.8675
+ },
+ {
+  "mandi_id": 12,
+  "mandi_name": "Solapur",
+  "district": "Solapur",
+  "lat": 17.6599,
+  "lon": 75.9064
+ },
+ {
+  "mandi_id": 13,
+  "mandi_name": "Ahmednagar",
+  "district": "Ahmednagar",
+  "lat": 19.0948,
+  "lon": 74.748
+ },
+ {
+  "mandi_id": 14,
+  "mandi_name": "Satara",
+  "district": "Satara",
+  "lat": 17.6868,
+  "lon": 74.02
+ },
+ {
+  "mandi_id": 15,
+  "mandi_name": "Sangli",
+  "district": "Sangli",
+  "lat": 16.8524,
+  "lon": 74.5815
+ },
+ {
+  "mandi_id": 16,
+  "mandi_name": "Kolhapur",
+  "district": "Kolhapur",
+  "lat": 16.705,
+  "lon": 74.2433
+ },
+ {
+  "mandi_id": 17,
+  "mandi_name": "Nagpur",
+  "district": "Nagpur",
+  "lat": 21.1458,
+  "lon": 79.0882
+ },
+ {
+  "mandi_id": 18,
+  "mandi_name": "Jalna",
+  "district": "Jalna",
+  "lat": 19.841,
+  "lon": 75.881
+ },
+ {
+  "mandi_id": 19,
+  "mandi_name": "Latur",
+  "district": "Latur",
+  "lat": 18.4028,
+  "lon": 76.56
+ },
+ {
+  "mandi_id": 20,
+  "mandi_name": "Nanded",
+  "district": "Nanded",
+  "lat": 19.1383,
+  "lon": 77.321
+ },
+ {
+  "mandi_id": 21,
+  "mandi_name": "Akola",
+  "district": "Akola",
+  "lat": 20.7002,
+  "lon": 77.0082
+ },
+ {
+  "mandi_id": 22,
+  "mandi_name": "Amravati",
+  "district": "Amravati",
+  "lat": 20.9374,
+  "lon": 77.7796
+ },
+ {
+  "mandi_id": 23,
+  "mandi_name": "Dhule",
+  "district": "Dhule",
+  "lat": 20.9042,
+  "lon": 74.7749
+ },
+ {
+  "mandi_id": 24,
+  "mandi_name": "Jalgaon",
+  "district": "Jalgaon",
+  "lat": 21.0077,
+  "lon": 75.5626
+ },
+ {
+  "mandi_id": 25,
+  "mandi_name": "Baramati",
+  "district": "Pune",
+  "lat": 18.1514,
+  "lon": 74.5777
+ }
+]
